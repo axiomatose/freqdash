@@ -1,0 +1,18 @@
+[
+ {
+  "profit_ratio": 0.018367409459523216,
+  "profit_pct": 1.84,
+  "profit_abs": 4.73077626,
+  "count": 4,
+  "pair": "BTC/USD",
+  "profit": 1.84
+ },
+ {
+  "profit_ratio": 0.023330505483837582,
+  "profit_pct": 2.33,
+  "profit_abs": 4.53606633,
+  "count": 3,
+  "pair": "ETH/USD",
+  "profit": 2.33
+ }
+]

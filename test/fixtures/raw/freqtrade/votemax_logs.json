@@ -1,0 +1,20 @@
+{
+ "log_count": 8,
+ "logs": [
+  [
+   "2026-09-28 21:29:48",
+   1790630988187.5369,
+   "freqtrade.freqtradebot"
+  ],
+  [
+   "2026-09-28 21:29:48",
+   1790630988188.4517,
+   "freqtrade.freqtradebot"
+  ],
+  [
+   "2026-09-28 21:29:48",
+   1790630988190.4094,
+   "freqtrade.strategy.interface"
+  ]
+ ]
+}

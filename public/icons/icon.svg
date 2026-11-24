@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171C29"/>
+      <stop offset="1" stop-color="#0B0D12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.28" r="0.6">
+      <stop offset="0" stop-color="#4F8CFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="candle" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#3568D9"/>
+      <stop offset="1" stop-color="#7DAAFF"/>
+    </linearGradient>
+    <radialGradient id="gdot" cx="0.36" cy="0.3" r="0.85" fx="0.32" fy="0.25">
+      <stop offset="0" stop-color="#9CFFD6"/>
+      <stop offset="0.35" stop-color="#2EC98E"/>
+      <stop offset="1" stop-color="#0E7A52"/>
+    </radialGradient>
+    <radialGradient id="rdot" cx="0.36" cy="0.3" r="0.85" fx="0.32" fy="0.25">
+      <stop offset="0" stop-color="#FFB0AE"/>
+      <stop offset="0.35" stop-color="#EE525A"/>
+      <stop offset="1" stop-color="#9E1F2D"/>
+    </radialGradient>
+    <filter id="dotglow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="dotshadow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#tile)"/>
+  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <rect x="10" y="10" width="492" height="492" rx="102" fill="none" stroke="#232838" stroke-width="12"/>
+  <g stroke="#6B9DFF" stroke-width="14" stroke-linecap="round">
+    <line x1="166" y1="236" x2="166" y2="384" opacity=".6"/>
+    <line x1="256" y1="176" x2="256" y2="380" opacity=".8"/>
+    <line x1="346" y1="126" x2="346" y2="330"/>
+  </g>
+  <rect x="132" y="290" width="68" height="84" rx="16" fill="url(#candle)" opacity=".55"/>
+  <rect x="222" y="214" width="68" height="120" rx="16" fill="url(#candle)" opacity=".8"/>
+  <rect x="312" y="136" width="68" height="150" rx="16" fill="url(#candle)"/>
+  <g transform="translate(0 -8)">
+      <circle cx="346" cy="98" r="20" fill="#2EBD85" opacity=".22" filter="url(#dotglow)"/>
+      <ellipse cx="347.5" cy="110" rx="11" ry="5" fill="#000" opacity=".45" filter="url(#dotshadow)"/>
+      <circle cx="346" cy="98" r="15" fill="url(#gdot)"/>
+      <ellipse cx="341.5" cy="92" rx="5.5" ry="3.4" fill="#fff" opacity=".6" transform="rotate(-30 341.5 92)"/>
+    </g>
+  <g transform="translate(0 8)">
+      <circle cx="166" cy="410" r="20" fill="#E5484D" opacity=".22" filter="url(#dotglow)"/>
+      <ellipse cx="167.5" cy="422" rx="11" ry="5" fill="#000" opacity=".45" filter="url(#dotshadow)"/>
+      <circle cx="166" cy="410" r="15" fill="url(#rdot)"/>
+      <ellipse cx="161.5" cy="404" rx="5.5" ry="3.4" fill="#fff" opacity=".6" transform="rotate(-30 161.5 404)"/>
+    </g>
+</svg>

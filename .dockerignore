@@ -1,0 +1,22 @@
+.git
+.gitignore
+node_modules
+.next
+out
+coverage
+shots
+playwright-report
+test-results
+test/mock-upstreams/.run
+docs
+Dockerfile
+compose*.yaml
+.dockerignore
+*.md
+
+# secrets and local data never enter the build context (examples are allowed)
+.env*
+!.env.example
+!.env.dev.example
+data
+*.sqlite*

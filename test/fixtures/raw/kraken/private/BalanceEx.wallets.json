@@ -1,0 +1,35 @@
+{
+ "error": [],
+ "result": {
+  "ZUSD": {
+   "balance": "250.1234",
+   "credit": "0.0000",
+   "credit_used": "0.0000",
+   "hold_trade": "20.0000"
+  },
+  "XXBT": {
+   "balance": "0.0004674400",
+   "credit": "0.0000000000",
+   "credit_used": "0.0000000000",
+   "hold_trade": "0.0000000000"
+  },
+  "XBT.F": {
+   "balance": "0.0010000000",
+   "credit": "0.0000000000",
+   "credit_used": "0.0000000000",
+   "hold_trade": "0.0000000000"
+  },
+  "DOT.S": {
+   "balance": "12.5000000000",
+   "credit": "0.0000000000",
+   "credit_used": "0.0000000000",
+   "hold_trade": "0.0000000000"
+  },
+  "USD.HOLD": {
+   "balance": "5.0000000000",
+   "credit": "0.0000000000",
+   "credit_used": "0.0000000000",
+   "hold_trade": "0.0000000000"
+  }
+ }
+}

@@ -1,0 +1,49 @@
+services:
+  freqdash:
+    build: .
+    image: freqdash:latest
+    container_name: freqdash
+    restart: unless-stopped
+    env_file: .env
+    environment: [TZ=UTC, DATA_DIR=/data, NODE_OPTIONS=--max-old-space-size=384]
+    ports: ['8043:3000']
+    volumes:
+      - freqdash-data:/data
+      - ../freqtrade/logs:/ftlogs:ro
+    tmpfs: [/tmp, '/app/.next/cache:uid=1001,gid=1001']
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ['no-new-privileges:true']
+    mem_limit: 512m
+    logging: { driver: json-file, options: { max-size: 10m, max-file: '3' } }
+    # freqdash reaches the bots by container name on this shared network. A bot that is not on it (another host, or a
+    # port published on this host) can be reached by URL instead, e.g. http://host.docker.internal:8080.
+    networks: [bots]
+    extra_hosts: ['host.docker.internal:host-gateway']
+
+  # Killswitch agent: the only container with the Docker socket, and it can only stop the containers listed in
+  # KILLSWITCH_ALLOWED. freqdash itself never mounts the socket. Remove this service if you do not use the killswitch.
+  killswitch-agent:
+    image: node:22-bookworm-slim
+    container_name: freqdash-killswitch
+    restart: unless-stopped
+    command: ['node', '/agent/agent.mjs']
+    environment:
+      - KILLSWITCH_TOKEN=${KILLSWITCH_TOKEN:-}
+      - KILLSWITCH_ALLOWED=${KILLSWITCH_ALLOWED:-}
+    volumes:
+      - ./tools/killswitch-agent:/agent:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: ['no-new-privileges:true']
+    mem_limit: 64m
+    logging: { driver: json-file, options: { max-size: 5m, max-file: '2' } }
+    networks: [bots]
+
+# The existing Docker network your freqtrade containers are on (`docker network ls`), set as BOT_NETWORK in .env.
+networks:
+  bots:
+    external: true
+    name: ${BOT_NETWORK:?set BOT_NETWORK in .env to the Docker network your freqtrade bots are on}
+volumes: { freqdash-data: {} }

@@ -1,0 +1,64 @@
+# Docker end-to-end gate (docs/PLAN.md WP13):
+#   docker compose -f compose.test.yaml up --build --abort-on-container-exit --exit-code-from e2e
+# The mock upstreams stand in for freqtrade, Kraken, and Discord; the app is the production image.
+services:
+  mock:
+    image: node:22-bookworm-slim
+    working_dir: /app
+    command: node test/mock-upstreams/server.mjs
+    environment:
+      - MOCK_PORT=9999
+      - MOCK_RUN_DIR=/run-logs
+    volumes:
+      - .:/app:ro
+      - mock-logs:/run-logs
+    healthcheck:
+      test:
+        [
+          'CMD',
+          'node',
+          '-e',
+          "fetch('http://127.0.0.1:9999/__scenario').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))",
+        ]
+      interval: 3s
+      retries: 20
+
+  app:
+    build: .
+    depends_on:
+      mock:
+        condition: service_healthy
+    env_file: .env.dev.example
+    environment:
+      - POLLER_ENABLED=true
+      - DATA_DIR=/data
+      - FT_BOT_1_URL=http://mock:9999/votemax
+      - FT_BOT_2_URL=http://mock:9999/dca
+      - FT_BOT_1_LOGFILE=/run-logs/votemax.log
+      - FT_BOT_2_LOGFILE=/run-logs/dca.log
+      - KRAKEN_API_BASE_URL=http://mock:9999/kraken
+      - DISCORD_WEBHOOK_URL=http://mock:9999/discord/webhook
+      - APP_ORIGINS=http://app:3000
+    volumes:
+      - mock-logs:/run-logs:ro
+      - app-data:/data
+    tmpfs:
+      - /tmp
+
+  e2e:
+    image: mcr.microsoft.com/playwright:v1.63.0-noble
+    working_dir: /work
+    depends_on:
+      - app
+    environment:
+      - E2E_BASE_URL=http://app:3000
+      - E2E_MOCK_URL=http://mock:9999
+      - E2E_MOCK_INTERNAL_URL=http://mock:9999
+      - CI=true
+    volumes:
+      - .:/work
+    command: sh -c "npm ci --ignore-scripts && npx playwright test"
+
+volumes:
+  mock-logs: {}
+  app-data: {}

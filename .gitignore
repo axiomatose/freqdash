@@ -1,0 +1,32 @@
+# dependencies and build output
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# secrets and local runtime data (examples are tracked)
+.env*
+!.env.example
+!.env.dev.example
+/data/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3*
+
+# test and tooling output
+coverage/
+shots/
+playwright-report/
+test-results/
+test/mock-upstreams/.run/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.e2e-data/
+test-results/
+playwright-report/

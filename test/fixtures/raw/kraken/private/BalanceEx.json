@@ -1,0 +1,35 @@
+{
+ "error": [],
+ "result": {
+  "ZUSD": {
+   "balance": "1461.9925",
+   "credit": "0.0000",
+   "credit_used": "0.0000",
+   "hold_trade": "0.0000"
+  },
+  "XXBT": {
+   "balance": "0.0004674400",
+   "credit": "0.0000000000",
+   "credit_used": "0.0000000000",
+   "hold_trade": "0.0000000000"
+  },
+  "XETH": {
+   "balance": "0.1130240889",
+   "credit": "0.0000000000",
+   "credit_used": "0.0000000000",
+   "hold_trade": "0.0000000000"
+  },
+  "SHIB": {
+   "balance": "1901628.18000",
+   "credit": "0.00000",
+   "credit_used": "0.00000",
+   "hold_trade": "0.00000"
+  },
+  "BABY": {
+   "balance": "0.21895",
+   "credit": "0.00000",
+   "credit_used": "0.00000",
+   "hold_trade": "0.00000"
+  }
+ }
+}

@@ -1,0 +1,21 @@
+{
+ "error": [],
+ "result": {
+  "ZUSD": {
+   "balance": "1501.1379",
+   "hold_trade": "0.0000"
+  },
+  "XETH": {
+   "balance": "0.1130240889",
+   "hold_trade": "0.0000000000"
+  },
+  "SHIB": {
+   "balance": "1901628.18000",
+   "hold_trade": "0.00000"
+  },
+  "BABY": {
+   "balance": "0.21895",
+   "hold_trade": "0.00000"
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "version": "2026.8",
+ "strategy_version": null,
+ "api_version": 2.5,
+ "dry_run": false,
+ "trading_mode": "spot",
+ "margin_mode": "",
+ "short_allowed": false,
+ "stake_currency": "USD",
+ "stake_amount": "unlimited",
+ "available_capital": null,
+ "stake_currency_decimals": 3,
+ "max_open_trades": 2.0,
+ "minimal_roi": {
+  "0": 0.25
+ },
+ "stoploss": -0.99,
+ "stoploss_on_exchange": false,
+ "trailing_stop": true,
+ "trailing_stop_positive": 0.03,
+ "trailing_stop_positive_offset": 0.08,
+ "trailing_only_offset_is_reached": true,
+ "unfilledtimeout": {
+  "entry": 10,
+  "exit": 10,
+  "unit": "minutes",
+  "exit_timeout_count": 0
+ },
+ "order_types": {
+  "entry": "limit",
+  "exit": "limit",
+  "emergency_exit": "market",
+  "force_exit": null,
+  "force_entry": null,
+  "stoploss": "limit",
+  "stoploss_on_exchange": false,
+  "stoploss_on_exchange_interval": 60
+ },
+ "use_custom_stoploss": false,
+ "timeframe": "4h",
+ "timeframe_ms": 14400000,
+ "timeframe_min": 240,
+ "exchange": "kraken",
+ "demo_trading": false,
+ "strategy": "DcaBot",
+ "force_entry_enable": false,
+ "exit_pricing": {
+  "price_side": "ask",
+  "use_order_book": true,
+  "order_book_top": 1
+ },
+ "entry_pricing": {
+  "price_side": "bid",
+  "use_order_book": true,
+  "order_book_top": 1,
+  "price_last_balance": 0.0,
+  "check_depth_of_market": {
+   "enabled": false,
+   "bids_to_ask_delta": 1
+  }
+ },
+ "bot_name": "freqtrade-dca",
+ "state": "running",
+ "runmode": "live",
+ "position_adjustment_enable": true,
+ "max_entry_position_adjustment": 9
+}

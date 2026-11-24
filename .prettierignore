@@ -1,0 +1,13 @@
+# frozen shared contracts are kept verbatim from docs/PLAN.md section 5
+src/shared/types
+src/server/checks/types.ts
+docs
+package-lock.json
+.next
+node_modules
+coverage
+shots
+playwright-report
+test-results
+test/fixtures/raw
+test/mock-upstreams/.run

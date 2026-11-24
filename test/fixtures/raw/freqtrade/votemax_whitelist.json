@@ -1,0 +1,10 @@
+{
+ "whitelist": [
+  "BTC/USD",
+  "ETH/USD"
+ ],
+ "length": 2,
+ "method": [
+  "StaticPairList"
+ ]
+}

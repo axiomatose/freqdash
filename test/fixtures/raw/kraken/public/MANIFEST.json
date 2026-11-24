@@ -1,0 +1,34 @@
+{
+ "capturedAt": "2026-09-28T22:32:10.388Z",
+ "base": "https://api.kraken.com/0/public",
+ "files": {
+  "Time.json": {
+   "endpoint": "Time",
+   "bytes": 87
+  },
+  "Assets.json": {
+   "endpoint": "Assets?asset=XBT,ETH,USD,SHIB,BABY",
+   "bytes": 714
+  },
+  "AssetPairs.json": {
+   "endpoint": "AssetPairs?pair=XBTUSD,ETHUSD,SHIBUSD,BABYUSD",
+   "bytes": 2092
+  },
+  "Ticker.json": {
+   "endpoint": "Ticker?pair=XBTUSD,ETHUSD,SHIBUSD,BABYUSD",
+   "bytes": 1219
+  },
+  "OHLC.XBTUSD.240.json": {
+   "endpoint": "OHLC?pair=XBTUSD&interval=240",
+   "bytes": 60164
+  },
+  "OHLC.ETHUSD.240.json": {
+   "endpoint": "OHLC?pair=ETHUSD&interval=240",
+   "bytes": 60679
+  },
+  "OHLC.XBTUSD.60.json": {
+   "endpoint": "OHLC?pair=XBTUSD&interval=60",
+   "bytes": 59435
+  }
+ }
+}

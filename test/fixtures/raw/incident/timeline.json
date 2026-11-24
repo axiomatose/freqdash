@@ -1,0 +1,768 @@
+{
+ "schema": 1,
+ "bot": "votemax",
+ "pair": "ETH/USD",
+ "source": {
+  "file": "votemax.log.2",
+  "note": "rotated copy preserved after the incident; timestamps are UTC"
+ },
+ "windows": [
+  {
+   "from": "2026-09-28T03:59:00.000Z",
+   "to": "2026-09-28T04:08:00.000Z",
+   "fromMs": 1790567940000,
+   "toMs": 1790568480000
+  },
+  {
+   "from": "2026-09-28T05:13:00.000Z",
+   "to": "2026-09-28T05:16:00.000Z",
+   "fromMs": 1790572380000,
+   "toMs": 1790572560000
+  }
+ ],
+ "counts": {
+  "entry_signal": 26,
+  "order_created": 25,
+  "order_failed": 1,
+  "process_died": 25,
+  "fatal": 25,
+  "startup": 25
+ },
+ "totals": {
+  "orderStakeUsd": 288.05229,
+  "orderVolEth": 0.10872497,
+  "signalStakeUsd": 293.69964,
+  "signalVolEth": 0.11085788
+ },
+ "firstOrder": {
+  "orderId": "OX2D7A-ROVIF-A3YVZW",
+  "at": 1790568007965
+ },
+ "lastOrder": {
+  "orderId": "OJ6DEM-PMOHZ-XDLFQB",
+  "at": 1790572452349
+ },
+ "events": [
+  {
+   "type": "entry_signal",
+   "at": 1790568007822,
+   "pair": "ETH/USD",
+   "price": 2651.84,
+   "stakeUsd": 36.95835
+  },
+  {
+   "type": "order_created",
+   "at": 1790568007965,
+   "pair": "ETH/USD",
+   "orderId": "OX2D7A-ROVIF-A3YVZW",
+   "price": 2651.84,
+   "stakeUsd": 36.95835
+  },
+  {
+   "type": "process_died",
+   "at": 1790568007970
+  },
+  {
+   "type": "fatal",
+   "at": 1790568008776,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568014724
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568026792,
+   "pair": "ETH/USD",
+   "price": 2652.07,
+   "stakeUsd": 32.320375
+  },
+  {
+   "type": "order_created",
+   "at": 1790568026918,
+   "pair": "ETH/USD",
+   "orderId": "OKFSTJ-YIHJD-DDT57X",
+   "price": 2652.07,
+   "stakeUsd": 32.320375
+  },
+  {
+   "type": "process_died",
+   "at": 1790568026920
+  },
+  {
+   "type": "fatal",
+   "at": 1790568027857,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568030867
+  },
+  {
+   "type": "fatal",
+   "at": 1790568043352,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568044549,
+   "pair": "ETH/USD",
+   "price": 2649.55,
+   "stakeUsd": 28.249175
+  },
+  {
+   "type": "order_created",
+   "at": 1790568044668,
+   "pair": "ETH/USD",
+   "orderId": "OINV2C-VYRDP-Q67OTR",
+   "price": 2649.55,
+   "stakeUsd": 28.249175
+  },
+  {
+   "type": "process_died",
+   "at": 1790568044670
+  },
+  {
+   "type": "startup",
+   "at": 1790568046386
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568060487,
+   "pair": "ETH/USD",
+   "price": 2649.07,
+   "stakeUsd": 24.7039
+  },
+  {
+   "type": "order_created",
+   "at": 1790568060612,
+   "pair": "ETH/USD",
+   "orderId": "O3TWMT-PI25G-MEGY47",
+   "price": 2649.07,
+   "stakeUsd": 24.7039
+  },
+  {
+   "type": "process_died",
+   "at": 1790568060613
+  },
+  {
+   "type": "fatal",
+   "at": 1790568061653,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568064704
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568077432,
+   "pair": "ETH/USD",
+   "price": 2648.86,
+   "stakeUsd": 21.6035625
+  },
+  {
+   "type": "order_created",
+   "at": 1790568077572,
+   "pair": "ETH/USD",
+   "orderId": "OVLMEW-VHTAK-RUBGFS",
+   "price": 2648.86,
+   "stakeUsd": 21.6035625
+  },
+  {
+   "type": "process_died",
+   "at": 1790568077574
+  },
+  {
+   "type": "fatal",
+   "at": 1790568078275,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568081336
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568094369,
+   "pair": "ETH/USD",
+   "price": 2648.33,
+   "stakeUsd": 18.8923125
+  },
+  {
+   "type": "order_created",
+   "at": 1790568094487,
+   "pair": "ETH/USD",
+   "orderId": "OOKWE5-OQUEF-HVBKK7",
+   "price": 2648.33,
+   "stakeUsd": 18.8923125
+  },
+  {
+   "type": "process_died",
+   "at": 1790568094488
+  },
+  {
+   "type": "fatal",
+   "at": 1790568095141,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568098312
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568109875,
+   "pair": "ETH/USD",
+   "price": 2649.07,
+   "stakeUsd": 16.5119625
+  },
+  {
+   "type": "order_created",
+   "at": 1790568110014,
+   "pair": "ETH/USD",
+   "orderId": "OMDYWY-5JYKH-GS3WS4",
+   "price": 2649.07,
+   "stakeUsd": 16.5119625
+  },
+  {
+   "type": "process_died",
+   "at": 1790568110015
+  },
+  {
+   "type": "fatal",
+   "at": 1790568110645,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568113801
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568128058,
+   "pair": "ETH/USD",
+   "price": 2648.55,
+   "stakeUsd": 14.4397125
+  },
+  {
+   "type": "order_created",
+   "at": 1790568128198,
+   "pair": "ETH/USD",
+   "orderId": "O4FTOU-3ULLX-YTXQTA",
+   "price": 2648.55,
+   "stakeUsd": 14.4397125
+  },
+  {
+   "type": "process_died",
+   "at": 1790568128199
+  },
+  {
+   "type": "fatal",
+   "at": 1790568128875,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568130358
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568143423,
+   "pair": "ETH/USD",
+   "price": 2648.41,
+   "stakeUsd": 12.627525
+  },
+  {
+   "type": "order_created",
+   "at": 1790568143574,
+   "pair": "ETH/USD",
+   "orderId": "OC6OJJ-ONAQF-OU53CS",
+   "price": 2648.41,
+   "stakeUsd": 12.627525
+  },
+  {
+   "type": "process_died",
+   "at": 1790568143575
+  },
+  {
+   "type": "fatal",
+   "at": 1790568144409,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568147727
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568158887,
+   "pair": "ETH/USD",
+   "price": 2648.41,
+   "stakeUsd": 11.04908588205
+  },
+  {
+   "type": "order_created",
+   "at": 1790568159009,
+   "pair": "ETH/USD",
+   "orderId": "OJZCWT-WIXZT-RX6JQJ",
+   "price": 2648.41,
+   "stakeUsd": 11.04908588205
+  },
+  {
+   "type": "process_died",
+   "at": 1790568159010
+  },
+  {
+   "type": "fatal",
+   "at": 1790568160034,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568162988
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568176030,
+   "pair": "ETH/USD",
+   "price": 2648.39,
+   "stakeUsd": 9.6561
+  },
+  {
+   "type": "order_created",
+   "at": 1790568176169,
+   "pair": "ETH/USD",
+   "orderId": "ONCP7G-NJK66-6UEXYM",
+   "price": 2648.39,
+   "stakeUsd": 9.6561
+  },
+  {
+   "type": "process_died",
+   "at": 1790568176170
+  },
+  {
+   "type": "fatal",
+   "at": 1790568176863,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568180111
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568191519,
+   "pair": "ETH/USD",
+   "price": 2647.75,
+   "stakeUsd": 8.4395
+  },
+  {
+   "type": "order_created",
+   "at": 1790568191647,
+   "pair": "ETH/USD",
+   "orderId": "OGSKLT-QFVJH-HHW72Z",
+   "price": 2647.75,
+   "stakeUsd": 8.4395
+  },
+  {
+   "type": "process_died",
+   "at": 1790568191649
+  },
+  {
+   "type": "fatal",
+   "at": 1790568192292,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568195314
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568208236,
+   "pair": "ETH/USD",
+   "price": 2647.58,
+   "stakeUsd": 7.3803375
+  },
+  {
+   "type": "order_created",
+   "at": 1790568208367,
+   "pair": "ETH/USD",
+   "orderId": "ODNYDP-FWHQ3-HHL2UN",
+   "price": 2647.58,
+   "stakeUsd": 7.3803375
+  },
+  {
+   "type": "process_died",
+   "at": 1790568208368
+  },
+  {
+   "type": "fatal",
+   "at": 1790568209072,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568212085
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568225222,
+   "pair": "ETH/USD",
+   "price": 2647.13,
+   "stakeUsd": 6.4541125
+  },
+  {
+   "type": "order_created",
+   "at": 1790568225362,
+   "pair": "ETH/USD",
+   "orderId": "OLT4WW-2ZXJ5-LQGRAN",
+   "price": 2647.13,
+   "stakeUsd": 6.4541125
+  },
+  {
+   "type": "process_died",
+   "at": 1790568225364
+  },
+  {
+   "type": "fatal",
+   "at": 1790568226019,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568229063
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568239960,
+   "pair": "ETH/USD",
+   "price": 2647.72,
+   "stakeUsd": 5.6473499988124995
+  },
+  {
+   "type": "order_failed",
+   "at": 1790568240099,
+   "pair": "ETH/USD",
+   "message": "Could not place buy order due to InvalidNonce. Message: kraken {\"error\":[\"EAPI:Invalid nonce\"]}"
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568247319,
+   "pair": "ETH/USD",
+   "price": 2648.39,
+   "stakeUsd": 5.6473499988124995
+  },
+  {
+   "type": "order_created",
+   "at": 1790568247461,
+   "pair": "ETH/USD",
+   "orderId": "OPAHK5-3JW6N-WZPMII",
+   "price": 2648.39,
+   "stakeUsd": 5.6473499988124995
+  },
+  {
+   "type": "process_died",
+   "at": 1790568247462
+  },
+  {
+   "type": "fatal",
+   "at": 1790568248541,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568251640
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568265065,
+   "pair": "ETH/USD",
+   "price": 2647.73,
+   "stakeUsd": 4.938599998812499
+  },
+  {
+   "type": "order_created",
+   "at": 1790568265187,
+   "pair": "ETH/USD",
+   "orderId": "O2RNDJ-2DICS-NL6GTH",
+   "price": 2647.73,
+   "stakeUsd": 4.938599998812499
+  },
+  {
+   "type": "process_died",
+   "at": 1790568265189
+  },
+  {
+   "type": "fatal",
+   "at": 1790568265820,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568269016
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568280150,
+   "pair": "ETH/USD",
+   "price": 2646.73,
+   "stakeUsd": 4.3131875
+  },
+  {
+   "type": "order_created",
+   "at": 1790568280297,
+   "pair": "ETH/USD",
+   "orderId": "OUBP3P-OZPQQ-3SFWNV",
+   "price": 2646.73,
+   "stakeUsd": 4.3131875
+  },
+  {
+   "type": "process_died",
+   "at": 1790568280300
+  },
+  {
+   "type": "fatal",
+   "at": 1790568280947,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568283916
+  },
+  {
+   "type": "fatal",
+   "at": 1790568295621,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568296875,
+   "pair": "ETH/USD",
+   "price": 2646.48,
+   "stakeUsd": 3.771875
+  },
+  {
+   "type": "order_created",
+   "at": 1790568297013,
+   "pair": "ETH/USD",
+   "orderId": "O2FLTL-RYFYD-3JQJQ2",
+   "price": 2646.48,
+   "stakeUsd": 3.771875
+  },
+  {
+   "type": "process_died",
+   "at": 1790568297015
+  },
+  {
+   "type": "startup",
+   "at": 1790568298744
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568311604,
+   "pair": "ETH/USD",
+   "price": 2646.82,
+   "stakeUsd": 3.3003913556
+  },
+  {
+   "type": "order_created",
+   "at": 1790568311743,
+   "pair": "ETH/USD",
+   "orderId": "OI6KWA-NGBEH-DN6UG3",
+   "price": 2646.82,
+   "stakeUsd": 3.3003913556
+  },
+  {
+   "type": "process_died",
+   "at": 1790568311744
+  },
+  {
+   "type": "fatal",
+   "at": 1790568312835,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568315870
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568326747,
+   "pair": "ETH/USD",
+   "price": 2647.34,
+   "stakeUsd": 2.8878447563
+  },
+  {
+   "type": "order_created",
+   "at": 1790568326865,
+   "pair": "ETH/USD",
+   "orderId": "OBVYBV-Q35OE-6NUUBF",
+   "price": 2647.34,
+   "stakeUsd": 2.8878447563
+  },
+  {
+   "type": "process_died",
+   "at": 1790568326866
+  },
+  {
+   "type": "fatal",
+   "at": 1790568327545,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568330738
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568343707,
+   "pair": "ETH/USD",
+   "price": 2647.57,
+   "stakeUsd": 2.7799485000000006
+  },
+  {
+   "type": "order_created",
+   "at": 1790568343823,
+   "pair": "ETH/USD",
+   "orderId": "OKHLRJ-WESCM-DJZR4L",
+   "price": 2647.57,
+   "stakeUsd": 2.7799485000000006
+  },
+  {
+   "type": "process_died",
+   "at": 1790568343824
+  },
+  {
+   "type": "fatal",
+   "at": 1790568344453,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568347555
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568360072,
+   "pair": "ETH/USD",
+   "price": 2648.39,
+   "stakeUsd": 2.7808095
+  },
+  {
+   "type": "order_created",
+   "at": 1790568360209,
+   "pair": "ETH/USD",
+   "orderId": "OUKAKZ-HT3P7-OZ7A57",
+   "price": 2648.39,
+   "stakeUsd": 2.7808095
+  },
+  {
+   "type": "process_died",
+   "at": 1790568360210
+  },
+  {
+   "type": "fatal",
+   "at": 1790568360956,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568363944
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568377166,
+   "pair": "ETH/USD",
+   "price": 2649.89,
+   "stakeUsd": 2.7823845
+  },
+  {
+   "type": "order_created",
+   "at": 1790568377288,
+   "pair": "ETH/USD",
+   "orderId": "O5QEFE-WANJ4-3SMIJO",
+   "price": 2649.89,
+   "stakeUsd": 2.7823845
+  },
+  {
+   "type": "process_died",
+   "at": 1790568377290
+  },
+  {
+   "type": "fatal",
+   "at": 1790568378063,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568381106
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790568402448,
+   "pair": "ETH/USD",
+   "price": 2649.56,
+   "stakeUsd": 2.7820380000000005
+  },
+  {
+   "type": "order_created",
+   "at": 1790568402605,
+   "pair": "ETH/USD",
+   "orderId": "OPSY7U-DMGXX-ZEY4KN",
+   "price": 2649.56,
+   "stakeUsd": 2.7820380000000005
+  },
+  {
+   "type": "process_died",
+   "at": 1790568402606
+  },
+  {
+   "type": "fatal",
+   "at": 1790568403276,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790568406128
+  },
+  {
+   "type": "entry_signal",
+   "at": 1790572452212,
+   "pair": "ETH/USD",
+   "price": 2649.38,
+   "stakeUsd": 2.7818490000000002
+  },
+  {
+   "type": "order_created",
+   "at": 1790572452349,
+   "pair": "ETH/USD",
+   "orderId": "OJ6DEM-PMOHZ-XDLFQB",
+   "price": 2649.38,
+   "stakeUsd": 2.7818490000000002
+  },
+  {
+   "type": "process_died",
+   "at": 1790572452351
+  },
+  {
+   "type": "fatal",
+   "at": 1790572453066,
+   "message": "ValueError: invalid literal for int() with base 10: ''"
+  },
+  {
+   "type": "startup",
+   "at": 1790572456606
+  }
+ ],
+ "outsideWindowEvents": [
+  {
+   "type": "order_failed",
+   "at": 1790571460717,
+   "pair": "ETH/USD",
+   "message": "Could not get balance due to ExchangeNotAvailable. Message: kraken {\"error\":[\"EService:Unavailable\"]}"
+  }
+ ]
+}

@@ -1,0 +1,482 @@
+2026-09-28 22:20:01,582 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:01,588 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:01,589 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:01,589 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:01,589 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:01,591 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:01,592 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:01,593 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:01,595 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:01,598 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:01,599 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:01,599 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:01,636 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83190.2, 0.26]], 'asks': [[83190.3, 0.411]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:01,637 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83190.30000000
+2026-09-28 22:20:01,637 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:01,640 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:01,640 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:01,642 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:01,643 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:01,643 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.94 s, last iteration took 0.06 s.
+2026-09-28 22:20:06,582 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:06,588 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:06,588 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:06,589 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:06,589 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:06,590 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:06,592 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:06,593 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:06,594 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:06,597 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:06,598 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:06,599 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:06,742 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83178.0, 0.579]], 'asks': [[83178.1, 0.529]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:06,743 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83178.10000000
+2026-09-28 22:20:06,743 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:06,746 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:06,747 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:06,751 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:06,751 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:06,753 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.83 s, last iteration took 0.17 s.
+2026-09-28 22:20:11,583 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:11,588 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:11,589 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:11,589 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:11,590 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:11,591 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:11,593 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:11,594 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:11,595 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:11,598 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:11,600 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:11,600 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:11,649 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83178.0, 0.603]], 'asks': [[83178.1, 0.51]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:11,650 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83178.10000000
+2026-09-28 22:20:11,650 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:11,653 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:11,654 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:11,656 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:11,656 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:11,657 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
+2026-09-28 22:20:16,583 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:16,589 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:16,589 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:16,590 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:16,590 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:16,591 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:16,593 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:16,594 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:16,596 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:16,599 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:16,600 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:16,601 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:16,737 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83178.0, 0.584]], 'asks': [[83178.1, 0.508]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:16,737 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83178.10000000
+2026-09-28 22:20:16,738 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:16,741 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:16,742 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:16,743 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:16,744 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:16,744 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.84 s, last iteration took 0.16 s.
+2026-09-28 22:20:21,584 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.8', state='RUNNING'
+2026-09-28 22:20:21,585 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:21,590 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:21,591 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:21,591 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:21,591 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:21,593 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:21,594 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:21,595 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:21,597 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:21,600 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:21,601 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:21,602 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:21,643 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83169.1, 0.002]], 'asks': [[83169.2, 0.309]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:21,643 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83169.20000000
+2026-09-28 22:20:21,644 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:21,650 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:21,651 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:21,653 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:21,653 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:21,654 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
+2026-09-28 22:20:26,585 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:26,591 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:26,591 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:26,592 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:26,592 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:26,594 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:26,595 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:26,596 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:26,598 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:26,601 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:26,602 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:26,602 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:26,742 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83146.7, 0.002]], 'asks': [[83146.8, 0.511]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:26,742 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83146.80000000
+2026-09-28 22:20:26,743 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:26,746 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:26,747 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:26,749 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:26,750 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:26,750 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.84 s, last iteration took 0.16 s.
+2026-09-28 22:20:31,465 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:31,470 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:31,471 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:31,471 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:31,472 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:31,473 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:31,474 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:31,475 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:31,477 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:31,480 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:31,481 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:31,482 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:31,614 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83146.7, 0.355]], 'asks': [[83146.8, 0.21]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:31,614 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83146.80000000
+2026-09-28 22:20:31,614 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:31,617 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:31,618 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:31,620 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:31,620 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:31,621 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.84 s, last iteration took 0.16 s.
+2026-09-28 22:20:36,466 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:36,471 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:36,472 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:36,472 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:36,473 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:36,474 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:36,475 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:36,476 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:36,478 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:36,481 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:36,482 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:36,482 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:36,527 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83158.4, 0.001]], 'asks': [[83160.7, 0.119]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:36,527 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83160.70000000
+2026-09-28 22:20:36,528 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:36,530 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:36,531 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:36,533 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:36,534 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:36,534 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
+2026-09-28 22:20:41,466 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:41,472 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:41,472 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:41,473 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:41,474 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:41,475 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:41,477 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:41,478 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:41,479 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:41,482 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:41,484 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:41,484 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:41,624 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83171.9, 0.342]], 'asks': [[83172.0, 0.021]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:41,624 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83172.00000000
+2026-09-28 22:20:41,625 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:41,628 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:41,629 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:41,633 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:41,633 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:41,634 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.83 s, last iteration took 0.17 s.
+2026-09-28 22:20:46,467 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:46,473 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:46,473 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:46,474 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:46,474 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:46,475 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:46,477 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:46,478 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:46,480 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:46,483 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:46,485 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:46,485 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:46,525 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83171.9, 0.051]], 'asks': [[83172.0, 1.038]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:46,525 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83172.00000000
+2026-09-28 22:20:46,526 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:46,528 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:46,529 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:46,531 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:46,531 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:46,532 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
+2026-09-28 22:20:51,467 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:51,474 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:51,474 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:51,475 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:51,475 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:51,476 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:51,478 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:51,479 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:51,480 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:51,483 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:51,484 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:51,485 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:51,626 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83173.2, 0.61]], 'asks': [[83173.3, 0.013]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:51,626 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83173.30000000
+2026-09-28 22:20:51,627 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:51,631 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:51,631 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:51,634 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:51,634 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:51,635 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.83 s, last iteration took 0.17 s.
+2026-09-28 22:20:56,468 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:20:56,474 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:20:56,475 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:20:56,475 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:20:56,476 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:20:56,477 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:56,478 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:56,479 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:20:56,480 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:20:56,483 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:20:56,485 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:20:56,486 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:20:56,538 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83173.2, 0.697]], 'asks': [[83173.3, 0.012]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:20:56,539 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83173.30000000
+2026-09-28 22:20:56,539 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:20:56,543 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:20:56,544 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:20:56,546 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:20:56,547 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:20:56,547 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.92 s, last iteration took 0.08 s.
+2026-09-28 22:21:01,347 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:01,352 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:01,353 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:01,353 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:01,354 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:01,355 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:01,357 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:01,358 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:01,359 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:01,362 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:01,364 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:01,364 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:01,410 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83179.9, 0.597]], 'asks': [[83180.0, 0.181]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:01,411 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83180.00000000
+2026-09-28 22:21:01,411 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:01,414 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:01,415 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:01,416 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:01,417 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:01,417 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
+2026-09-28 22:21:06,348 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:06,353 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:06,353 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:06,354 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:06,354 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:06,356 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:06,357 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:06,358 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:06,360 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:06,362 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:06,364 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:06,364 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:06,503 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83179.9, 0.308]], 'asks': [[83180.0, 0.325]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:06,504 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83180.00000000
+2026-09-28 22:21:06,504 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:06,507 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:06,508 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:06,511 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:06,511 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:06,512 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.84 s, last iteration took 0.16 s.
+2026-09-28 22:21:11,348 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:11,354 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:11,355 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:11,355 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:11,355 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:11,356 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:11,358 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:11,359 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:11,360 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:11,363 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:11,365 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:11,365 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:11,415 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83179.9, 0.308]], 'asks': [[83180.0, 0.187]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:11,416 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83180.00000000
+2026-09-28 22:21:11,416 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:11,419 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:11,420 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:11,422 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:11,422 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:11,423 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
+2026-09-28 22:21:16,349 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:16,355 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:16,356 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:16,356 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:16,357 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:16,358 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:16,360 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:16,360 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:16,362 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:16,365 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:16,367 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:16,367 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:16,503 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83179.9, 0.308]], 'asks': [[83180.0, 0.187]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:16,503 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83180.00000000
+2026-09-28 22:21:16,504 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:16,507 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:16,508 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:16,510 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:16,511 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:16,511 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.84 s, last iteration took 0.16 s.
+2026-09-28 22:21:21,350 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:21,356 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:21,357 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:21,357 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:21,357 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:21,359 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:21,361 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:21,362 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:21,363 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:21,366 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:21,367 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:21,367 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:21,411 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83179.9, 0.298]], 'asks': [[83180.0, 0.187]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:21,412 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83180.00000000
+2026-09-28 22:21:21,412 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:21,415 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:21,416 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:21,418 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:21,418 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:21,419 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
+2026-09-28 22:21:26,350 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2026.8', state='RUNNING'
+2026-09-28 22:21:26,351 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:26,356 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:26,357 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:26,357 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:26,358 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:26,359 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:26,360 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:26,361 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:26,363 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:26,366 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:26,367 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:26,368 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:26,416 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83186.9, 0.115]], 'asks': [[83187.0, 0.048]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:26,417 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83187.00000000
+2026-09-28 22:21:26,417 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:26,422 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:26,423 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:26,426 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:26,427 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:26,427 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.92 s, last iteration took 0.08 s.
+2026-09-28 22:21:31,227 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:31,232 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:31,233 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:31,233 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:31,233 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:31,235 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:31,236 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:31,237 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:31,238 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:31,241 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:31,243 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:31,243 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:31,286 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83186.9, 0.115]], 'asks': [[83187.0, 0.048]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:31,286 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83187.00000000
+2026-09-28 22:21:31,287 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:31,289 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:31,290 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:31,292 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:31,293 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:31,293 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
+2026-09-28 22:21:36,227 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:36,233 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:36,233 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:36,234 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:36,234 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:36,235 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:36,237 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:36,238 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:36,239 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:36,242 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:36,243 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:36,244 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:36,287 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83186.7, 0.144]], 'asks': [[83186.8, 1.007]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:36,287 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83186.80000000
+2026-09-28 22:21:36,288 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:36,290 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:36,291 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:36,293 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:36,294 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:36,294 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
+2026-09-28 22:21:41,228 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:41,244 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:41,244 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:41,245 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:41,245 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:41,246 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:41,248 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:41,248 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:41,250 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:41,253 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:41,254 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:41,255 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:41,396 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83186.7, 0.114]], 'asks': [[83186.8, 0.632]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:41,396 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83186.80000000
+2026-09-28 22:21:41,397 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:41,401 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:41,402 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:41,405 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:41,406 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:41,406 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.82 s, last iteration took 0.18 s.
+2026-09-28 22:21:46,229 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:46,235 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:46,235 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:46,236 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:46,236 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:46,238 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:46,239 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:46,240 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:46,242 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:46,245 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:46,246 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:46,246 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:46,291 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83186.7, 0.109]], 'asks': [[83186.8, 0.769]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:46,291 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83186.80000000
+2026-09-28 22:21:46,292 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:46,294 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:46,295 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:46,297 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:46,298 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:46,298 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
+2026-09-28 22:21:51,229 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:51,235 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:51,235 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:51,236 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:51,236 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:51,237 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:51,239 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:51,240 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:51,241 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:51,244 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:51,246 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:51,246 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:51,390 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83194.4, 0.256]], 'asks': [[83194.5, 0.291]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:51,390 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83194.50000000
+2026-09-28 22:21:51,391 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:51,395 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:51,396 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:51,398 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:51,398 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:51,399 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.83 s, last iteration took 0.17 s.
+2026-09-28 22:21:56,230 - freqtrade.worker - DEBUG - ========================================
+2026-09-28 22:21:56,235 - freqtrade.plugins.pairlistmanager - DEBUG - Whitelist with 2 pairs: ['BTC/USD', 'ETH/USD']
+2026-09-28 22:21:56,236 - freqtrade.exchange.exchange - DEBUG - Refreshing candle (OHLCV) data for 2 pairs
+2026-09-28 22:21:56,236 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for BTC/USD, 4h, spot ...
+2026-09-28 22:21:56,237 - freqtrade.exchange.exchange - DEBUG - Using cached candle (OHLCV) data for ETH/USD, 4h, spot ...
+2026-09-28 22:21:56,238 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:56,239 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:56,240 - freqtrade.strategy.interface - DEBUG - Skipping TA Analysis for already analyzed candle
+2026-09-28 22:21:56,242 - freqtrade.strategy.interface - DEBUG - Loop Analysis Launched
+2026-09-28 22:21:56,245 - freqtrade.freqtradebot - DEBUG - Handling Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47) ...
+2026-09-28 22:21:56,246 - freqtrade.strategy.interface - DEBUG - exit-trigger: 2026-09-28 16:00:00+00:00 (pair=BTC/USD) enter=True exit=False
+2026-09-28 22:21:56,246 - freqtrade.freqtradebot - DEBUG - checking exit
+2026-09-28 22:21:56,290 - freqtrade.exchange.exchange - DEBUG - order_book {'symbol': 'BTC/USD', 'bids': [[83194.4, 0.155]], 'asks': [[83194.5, 0.295]], 'timestamp': None, 'datetime': None, 'nonce': None}
+2026-09-28 22:21:56,291 - freqtrade.exchange.exchange - DEBUG - BTC/USD - Exit price from orderbook Askside - top 1 order book exit rate 83194.50000000
+2026-09-28 22:21:56,292 - freqtrade.freqtradebot - DEBUG - Found no exit_long signal for Trade(id=8, pair=BTC/USD, amount=0.00046744, is_short=False, leverage=1, open_rate=83410.5, open_since=2026-09-28 20:51:47).
+2026-09-28 22:21:56,295 - freqtrade.freqtradebot - DEBUG - Ignoring BTC/USD in pair whitelist
+2026-09-28 22:21:56,297 - freqtrade.freqtradebot - DEBUG - create_trade for pair ETH/USD
+2026-09-28 22:21:56,299 - freqtrade.strategy.interface - DEBUG - entry trigger: 2026-09-28 16:00:00+00:00 (pair=ETH/USD) enter=False enter_tag_value=None
+2026-09-28 22:21:56,299 - freqtrade.freqtradebot - DEBUG - Found no enter signals for whitelisted currencies. Trying again...
+2026-09-28 22:21:56,300 - freqtrade.worker - DEBUG - Throttling with '_process_running()': sleep for 4.93 s, last iteration took 0.07 s.
